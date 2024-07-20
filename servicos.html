@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Serviços</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo-condominio" src="./img/america_do_sul_logo.png" alt="logo condominio">
+            <div id="branding">
+                <h1><span class="highlight"></span>Serviços</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./aluguel.html">Aluguel</a></li>
+                </ul>
+            </nav>
+            <p class="text-whatsapp">Suporte</p>
+            <a href="https://api.whatsapp.com/send/?phone=5511947612300&text=Olá, preciso preciso de Suporte!">
+                <img class="logo-whatsapp" src="./img/whatsapp.png" alt="logo whatsapp">
+            </a>
+        </div>
+    </header>
+
+    <section class="boxes">
+        <div class="sidebar">
+            <h3>Categorias</h3>
+            <ul>
+                <li><a href="./servicos.html">Todas</a></li>
+                <li><a href="#" class="category" data-category="manicure">Manicure</a></li>
+                <li><a href="#" class="category" data-category="estetica">Estetica & Beleza</a></li>
+                <li><a href="#" class="category" data-category="limpeza">Limpeza</a></li>
+                <li><a href="#" class="category" data-category="manutencao">Manutenção</a></li>
+                <li><a href="#" class="category" data-category="terapia">Terapia</a></li>
+                <li><a href="#" class="category" data-category="convenio">Convenio & Seguro</a></li>
+                <li><a href="#" class="category" data-category="turismo">Turismo & Viagens</a></li>
+                <li><a href="#" class="category" data-category="automotivo">Automotivo</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h3 class="tex-destaques"></h3>
+            <div class="container">
+                <div class="box" data-category="manicure">
+                    <img src="./img/KS_Studio/Logo_KS_Karla_Silva_Studio.jpg" alt="Icone Serviço 1">
+                    <h3>Manicure</h3>
+                    <p>Tradicional Pé e Mão Decorações Alongamento Gel, Fibra e Postiça </p>
+                    <p>Manutenção, Reposição e Remoção</p>
+                    <button class="btn-catalogo" data-url="./catalogo/ks-studio.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="manutencao">
+                    <img src="./img/Marido_Aluguel/Logo_Marido_de_Aluguel.jpg" alt="Icone Serviço 2">
+                    <h3>Marido de Aluguel</h3>
+                    <p>Manutenções, Pintura, ELetrica, Hidraulica, Cheveiro, Xerox, Carretos</p>
+                    <button class="btn-catalogo" data-url="./catalogo/marido-aluguel.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="limpeza">
+                    <img src="./img/Gru_Clean/Logo_GruClean.jpg" alt="Icone Serviço 3">
+                    <h3>Gru Clean</h3>
+                    <p>Higienização de Estofados</p>
+                    <p>Colchão, Sofa, Poltrona, Cadeiras e Automovel</p>
+                    <button class="btn-catalogo" data-url="./catalogo/gru-clean.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="estetica">
+                    <img src="./img/Espelho_Meu/Logo_Talita_Espelho_Meu.jpg" alt="Icone Serviço 4">
+                    <h3>Espelho Meu</h3>
+                    <p>Estetica & Beleza</p>
+                    <p>Sombrancelha, Alongamento de cílios, Limpeza de pele e Depilação</p>
+                    <button class="btn-catalogo" data-url="./catalogo/espelho-meu.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="terapia">
+                    <img src="./img/Fabio_Terapeuta/logo_foto.jpg" alt="Icone Serviço 5">
+                    <h3>Fabio Soares</h3>
+                    <p>Terapeuta trg</p>
+                    <p>Terapia de Reprocessamento Generativo</p>
+                    <button class="btn-catalogo" data-url="./catalogo/fabio-trg.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="convenio">
+                    <img src="./img/Ideale/logo.jpg" alt="Icone Serviço 6">
+                    <h3>Ideale Corretora</h3>
+                    <p>Planos de Saude</p>
+                    <button class="btn-catalogo" data-url="./catalogo/ideale.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="turismo">
+                    <img src="./img/Olivia_Tur/logo.jpg" alt="Icone Serviço 7">
+                    <h3>Olivia Tur</h3>
+                    <p>Agencia de Viagens</p>
+                    <p>Day Use, Feriado, Final de Semana</p>
+                    <button class="btn-catalogo" data-url="./catalogo/olivia-tur.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="automotivo">
+                    <img src="./img/Parada_Obrigatoria/Logo.png" alt="Icone Serviço 8">
+                    <h3>Parada Obrigatoria</h3>
+                    <p>Lava Rapido</p>
+                    <p>Estacionamento</p>
+                    <button class="btn-catalogo" data-url="./catalogo/parada-obrigatoria.html">Catalogo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Residencial América do Sul</p>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

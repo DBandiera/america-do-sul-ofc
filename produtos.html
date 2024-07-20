@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Serviços</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo-condominio" src="./img/america_do_sul_logo.png" alt="logo condominio">
+            <div id="branding">
+                <h1><span class="highlight"></span>Produtos</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./servicos.html">Serviços</a></li>
+                    <li><a href="./aluguel.html">Aluguel</a></li>
+                </ul>
+            </nav>
+            <p class="text-whatsapp">Suporte</p>
+            <a href="https://api.whatsapp.com/send/?phone=5511947612300&text=Olá, preciso preciso de Suporte!">
+                <img class="logo-whatsapp" src="./img/whatsapp.png" alt="logo whatsapp">
+            </a>
+        </div>
+    </header>
+
+    <section class="boxes">
+        <div class="sidebar">
+            <h3>Categorias</h3>
+            <ul>
+                <li><a href="./produtos.html">Todas</a></li>
+                <li><a href="#" class="category" data-category="confeitaria">Confeitaria</a></li>
+                <li><a href="#" class="category" data-category="lanches">Lanches</a></li>
+                <li><a href="#" class="category" data-category="perfumaria">Perfumaria</a></li>
+                <li><a href="#" class="category" data-category="utilidades">Utilidades</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h3 class="tex-destaques"></h3>
+            <div class="container">
+                <div class="box" data-category="confeitaria">
+                    <img src="./img/Golden_Sweet/Logo_GoldenSweet.jpg" alt="Icone Produto 1">
+                    <h3>Golden Sweet</h3>
+                    <p>Doces Finos</p>
+                    <p>Festas - Casamento e Aniversario</p>
+                    <p>Brigadeiro - Beijinho - Bem Casado - Pão de Mel - Bolo de Pote</p>
+                    <button class="btn-catalogo" data-url="./catalogo/golden-sweet.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="utilidades">
+                    <img src="./img/RPD/Logo_RPD.jpg" alt="Icone Produto 2">
+                    <h3>RPD</h3>
+                    <p>Utilidades Domesticas</p>
+                    <p>Panelas e Acessorios</p>
+                    <button class="btn-catalogo" data-url="./catalogo/rpd-utilidades.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="utilidades">
+                    <img src="./img/Borges_Store/Logo_BorgesStore.jpg" alt="Icone Produto 3">
+                    <h3>Borges Store</h3>
+                    <p>Utilidades & Tecnologia</p>
+                    <p>Garrafas - Squeeze</p>
+                    <p>Fones e Carregadores</p>
+                    <button class="btn-catalogo" data-url="./catalogo/borges-store.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="perfumaria">
+                    <img src="./img/Gabi/cosmeticos.png" alt="Icone Produto 4">
+                    <h3>Gabi</h3>
+                    <p>Consultora</p>
+                    <p>Natura, O Boticario, Avon e Eudora</p>
+                    <button class="btn-catalogo" data-url="./catalogo/gabi.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="perfumaria">
+                    <img src="./img/Gabi/cosmeticos.png" alt="Icone Produto 5">
+                    <h3>Katia</h3>
+                    <p>Consultora</p>
+                    <p>Mary Kay</p>
+                    <button class="btn-catalogo" data-url="./catalogo/katia.html">Catalogo</button>
+                </div>
+                <div class="box" data-category="perfumaria">
+                    <img src="./img/Pastelaria_Dona_Maria/logo.jpg" alt="Icone Produto 6">
+                    <h3>Pastelaria Dona Maria</h3>
+                    <p>Pasteis, Hot Dog, Lanches e Salgados</p>
+                    <p>Delivery</p>
+                    <button class="btn-catalogo" data-url="./catalogo/pastelaria-dona-maria.html">Catalogo</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Residencial América do Sul</p>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
